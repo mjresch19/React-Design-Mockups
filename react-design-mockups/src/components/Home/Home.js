@@ -7,6 +7,11 @@ class Home extends Component {
     return (
       <div>
         <h1>Hello, Please select the design you want to view!</h1>
+        <h2>
+          <a href="/product-form" target="_blank">
+            Product Submission Form
+          </a>
+        </h2>
       </div>
     );
   }
