@@ -1,10 +1,15 @@
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import logo from "./logo.svg";
 import "./App.css";
+import Home from "./components/Home/Home";
 
 function App() {
   return (
     <BrowserRouter>
-      <Route exact path="/" component={Home} />
+      <Routes>
+      <Route exact path="/" element={<Home />} />
+      </Routes>
     </BrowserRouter>
   );
 }
